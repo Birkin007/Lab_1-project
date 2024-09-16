@@ -12,7 +12,9 @@ int main() {
         printf("Good morning!\n");
     else if (hour >= 12 && hour < 17)
         printf("Good day!\n");
-    else if (hour >= 17 && hour < 23)
+    else if (hour >= 17 && hour < 21)
+        printf("Good evening!\n");
+    else if (hour >= 21 && hour <23)
         printf("Good night!\n");
     else
         printf("It's too late, let's go to bed.\n");
